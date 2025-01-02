@@ -64,6 +64,7 @@ public class IntegrationTest {
             case LanguageVersion.CSharp10:
             case LanguageVersion.CSharp11:
             case LanguageVersion.CSharp12:
+            case LanguageVersion.CSharp13:
             case LanguageVersion.LatestMajor:
             case LanguageVersion.Preview:
             case LanguageVersion.Latest:

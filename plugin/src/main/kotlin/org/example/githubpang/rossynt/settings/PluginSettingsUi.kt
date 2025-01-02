@@ -36,14 +36,14 @@ internal class PluginSettingsUi {
                 indent {
                     row("Path to dotnet executable:") {
                         textFieldDotNetPath = textFieldWithBrowseButton(
-                            "Select Executable",
-                            fileChooserDescriptor = FileChooserDescriptorFactory.createSingleLocalFileDescriptor().withFileFilter {
+                           FileChooserDescriptorFactory.createSingleLocalFileDescriptor().withFileFilter {
                                 it.name.startsWith("dotnet")
-                            },
+                            }
                         )
                             .align(AlignX.FILL)
                             .enabledIf(radioButtonDotNetPathCustomCell!!.selected)
                             .component
+//                        textFieldDotNetPath!!.text = "path to dotnet executable"
                     }
                 }
             }

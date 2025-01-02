@@ -29,6 +29,7 @@ public class CSharpVersionTest {
         CSharp10,
         CSharp11,
         CSharp12,
+        CSharp13,
         Latest,
         LatestMajor,
         Preview
